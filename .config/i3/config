@@ -186,4 +186,8 @@ set $inactive-text-color #676E7D
 set $urgent-bg-color #E53935
 
 # wallpaper
-exec --no-startup-id feh --bg-fill ~/Pictures/Sea.png
+exec --no-startup-id feh --bg-fill /home/stefano/Pictures/Sea.png
+
+# Configure border style for new windows
+new_window pixel 1
+new_float pixel 1
