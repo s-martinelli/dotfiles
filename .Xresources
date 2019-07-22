@@ -25,3 +25,5 @@
 !white
 *color7:    #9a875f
 *color15:   #917154
+
+URxvt.scrollBar: false
