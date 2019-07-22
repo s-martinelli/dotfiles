@@ -129,6 +129,8 @@ bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
+bindsym Print exec scrot /home/stefano/Pictures/`date +%Y-%m-%d_%H:%M:%S`.png
+
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -186,7 +188,7 @@ set $inactive-text-color #676E7D
 set $urgent-bg-color #E53935
 
 # wallpaper
-exec --no-startup-id feh --bg-fill /home/stefano/Pictures/Sea.png
+exec --no-startup-id feh --bg-fill /home/stefano/Pictures/wallpaper.png
 
 # Configure border style for new windows
 new_window pixel 1
